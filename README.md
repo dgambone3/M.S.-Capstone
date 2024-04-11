@@ -20,7 +20,8 @@ These unusual and unexpectidly high results yielded further investigation into w
 - What is the distribution of words per label? Could some words be only used in AI essays and not student, and vice versa?
 - Could typos in student essays be the distinguishing factor between the two classes?
 
-The essays were vectorized with Sci-kit learn's count vectorizer to find the top 25000 features, or more common words. Spell checking was applied to these most frequent words, and stored in a dictionary whenever a word from the top features was found in the spell checker. If spell corrected, the misspelled word and its correction was added to a dictionary to be utilized to replace any occurrances of the misspelled word in the dataset. 
+The essays were vectorized with Sci-kit learn's count vectorizer to get the feature list. Spell checking was applied to these 
+ words, and stored in a dictionary whenever a word from the top features was found in the spell checker. If spell corrected, the misspelled word and its correction was added to a dictionary to be utilized to replace any occurrances of the misspelled word in the dataset. 
 
 ## Results and Exploratory Data Analysis
 Initial plots of the distribution for the most frequent words in the dataset appeared to have an even split between words used in student and AI essays, based on word frequency in the dataset.
