@@ -36,7 +36,7 @@ Expanding on this plot, visualizing the frequency distribution of these top weig
 
 Further, the applying spell checker to the essays did slightly affect the results, but not enough to prove that typos were the reason for the dataset's seperability. For example, after the spell check was applied the ROC scores were slightly lower on the spell checked dataset. Spell checking the essays also did slightly affect the words and their order appearing in the most top weighted words, but not by much - some words in a different rank of the top, or exchanging some words appearing in the top weighted words list. 
 
-DistilBERT was trained on the dataset to check the results on inference, this model resulted in an AUC of 99%. Limitations of GPU and comput access did affect the ability to train this model though, specifically not enough GPU space with free resources affected this process. As future research, it would be of interest to dive further into the cause of the high results for the BERT model and to train the model once more resources were available. 
+DistilBERT was trained on the dataset to check the results on inference, this model resulted in an AUC of 99%. Limitations of GPU and comput access did affect the ability to train this model on the complete dataset though. As future research, it would be of interest to dive further into the cause of the high results for the BERT model and to train the model once more resources were available and possibly on a larger dataset. 
 
 
 ### Logistic Regression Result Plots
@@ -93,7 +93,6 @@ DistilBERT was trained on the dataset to check the results on inference, this mo
 
 
 # References
-REFERENCES
 [1] “DAIGT https://www.kaggle.com/datasets/thedrcat/daigt-v2-train-dataset (accessed Jan. 31, 2024).
 Kaggle, V2 Train Dataset,”
 
