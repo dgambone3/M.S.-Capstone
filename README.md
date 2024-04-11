@@ -1,4 +1,4 @@
-# M.S. Capstone Project
+# Detect AI Generated vs Student Written Essays
 
 ## Introduction
 Generative AI models are rapidly gaining popularity as large-language models (LLMs) advance, becoming more performant and easily accessable. At the forefront of this technology is OpenAI’s free-to-use large-language model, GPT, and its conversational AI chat bot, ChatGPT. 
